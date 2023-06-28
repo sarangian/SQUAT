@@ -16,7 +16,7 @@ fi
 
 #install bwa
 echo "install bwa-0.7.15"
-wget https://downloads.sourceforge.net/project/bio-bwa/bwa-0.7.15.tar.bz2
+wget https://downloads.sourceforge.net/project/bio-bwa/bwa-0.7.17.tar.bz2
 tar jxvf bwa-0.7.15.tar.bz2
 rm bwa-0.7.15.tar.bz2*
 mv bwa-0.7.15 bwa
