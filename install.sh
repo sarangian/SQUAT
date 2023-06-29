@@ -14,10 +14,10 @@ fi
 #install quast
 echo "install quast"
 cd ${INSTDIR}
-wget https://downloads.sourceforge.net/project/quast/quast-4.6.3.tar.gz
-tar -xzf quast-4.6.3.tar.gz
-mv quast-4.6.3 quast;
-rm quast-4.6.3.tar.gz*
+wget https://github.com/ablab/quast/releases/download/quast_5.2.0/quast-5.2.0.tar.gz
+tar -xzf quast-5.2.0.tar.gz
+mv quast-5.2.0 quast;
+rm quast-5.2.0.tar.gz
 cp ${INSTDIR}/library/quast_code/* ${INSTDIR}/quast/quast_libs
 
 #build readQdist
